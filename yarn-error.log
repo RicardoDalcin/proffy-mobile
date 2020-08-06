@@ -1,0 +1,53 @@
+Arguments: 
+  D:\ProgramFiles\Node\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @react-navigation/native
+
+PATH: 
+  C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\ProgramFiles\Node\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\ProgramFiles\CMake\bin;C:\deps\LLVM\bin;C:\Program Files\CMake\bin;C:\Users\ricar\AppData\Local\Microsoft\WindowsApps;C:\Users\ricar\.dotnet\tools;D:\ProgramFiles\Git\cmd;C:\Users\ricar\AppData\Local\Microsoft\WindowsApps;;C:\Users\ricar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ricar\AppData\Roaming\npm;C:\Users\ricar\AppData\Local\Yarn\bin;D:\ProgramFiles\CLion\CLion 2020.1\bin;;D:\ProgramFiles\PyCharm\PyCharm Community Edition 2020.1\bin;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\My Documents\Source\proffy\mobile\node_modules\file-uri-to-path\test'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@expo-google-fonts/archivo": "^0.1.0",
+      "@expo-google-fonts/poppins": "^0.1.0",
+      "expo": "~38.0.8",
+      "expo-font": "~8.2.1",
+      "expo-status-bar": "^1.0.2",
+      "react": "~16.11.0",
+      "react-dom": "~16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "@types/react": "~16.9.41",
+      "@types/react-native": "~0.62.13",
+      "typescript": "~3.9.5"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
